@@ -270,7 +270,7 @@ void increment(int intNumOfPlayers){
 
 // this will decide what the player needs to do.
 // how many cards to draw, what card to play, which direction to go next, draws random player card if needed,
-// changes local variables as needed
+// changes global variables as needed
 /// this function it the real meat and potatoes of the program, it decides all
 void action(vector<player> &playerVec, vector<card> &cardPileVec, vector<card> &disCardVec){
 
