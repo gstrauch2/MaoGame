@@ -37,7 +37,7 @@ int glbIntPlayerTurn = 0;   // refers to position in vector, not identifier
 struct card{
     int value;
     cardsuite cardSuite;
-    };
+};
 
 
 struct player{
